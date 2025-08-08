@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e61785147fe22108a4393c4116d43cd" extends="x_thl_phd_core_tr_variables" label="問い合わせ申請0002Variables" max_length="40" name="x_thl_app_0002_x_thl_app_0006_tr_variables_demo0006" type="collection">
+        <element label="申請者" max_length="32" name="u_applicant" reference="sys_user" type="reference"/>
+        <element label="問い合わせ受付部門" max_length="40" name="u_department" reference="sys_user_group" type="reference"/>
+        <element label="問い合わせ内容" max_length="4000" name="u_inquiry_details" type="string"/>
+        <index name="index">
+            <element name="u_applicant"/>
+        </index>
+    </element>
+</database>

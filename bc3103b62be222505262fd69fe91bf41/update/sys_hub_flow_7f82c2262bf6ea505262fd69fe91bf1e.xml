@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1188000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>inquiry_task2ssss</internal_name>
+        <label_cache>[{"name":"d1ec7564-59b9-4bef-a6a9-f8422d94555d.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.manager_record","label":"Input➛Manager Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","usedInstances":{"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["assigned_to"],"d1ec7564-59b9-4bef-a6a9-f8422d94555d":["approval_conditions"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"dd89e9ed-d4c8-4d39-a700-c453b19ef3f3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"b45e3364-e9e3-49de-b9b3-218fd1f029fe.record.assignment_group.manager","label":"3 - Update Record➛Demo Request Record➛Assignment group➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["assigned_to"]}},{"name":"3a872999-1bc1-43f7-97c1-c2e20ae6d998.Record.assigned_to","label":"1 - Look Up Record➛Demo Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"0b4a2a8c-a5c5-4fbd-b631-c5baa6b77c4e":["task_operator-0"]},"attributes":{}},{"name":"subflow.trigger_sysid","label":"Input➛Trigger Sysid","type":"string","base_type":"string","usedInstances":{"3a872999-1bc1-43f7-97c1-c2e20ae6d998":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7af829fb-9454-4189-a6bc-22fc631d51f2"}},{"name":"3a872999-1bc1-43f7-97c1-c2e20ae6d998.Record","label":"1 - Look Up Record➛Demo Request Record","reference":"x_thl_app_0002_tr_base","reference_display":"Demo Request Record","type":"reference","base_type":"reference","usedInstances":{"b45e3364-e9e3-49de-b9b3-218fd1f029fe":["record"],"83714f11-80b9-41b5-83e8-5f492a6fa93a":["record"],"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["record"],"d1ec7564-59b9-4bef-a6a9-f8422d94555d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>8a17c62a2bf6ea505262fd69fe91bf77</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Inquiry Task2ssss</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:37:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f82c2262bf6ea505262fd69fe91bf1e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Inquiry Task2ssss</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name>sys_hub_flow_7f82c2262bf6ea505262fd69fe91bf1e</sys_update_name>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT IN3382c2262bf6ea505262fd69fe91bf20"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7f82c2262bf6ea505262fd69fe91bf1e</id>
+        <name>Inquiry Task2ssss</name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:37:53</sys_created_on>
+        <sys_id>3382c2262bf6ea505262fd69fe91bf20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:37:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3382c2262bf6ea505262fd69fe91bf20"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT IN3ec3ca662bf6ea505262fd69fe91bfa0,b2c3ca662bf6ea505262fd69fe91bfa5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dd89e9ed-d4c8-4d39-a700-c453b19ef3f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Manager Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</model>
+        <model_id>7f82c2262bf6ea505262fd69fe91bf1e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:43:17</sys_created_on>
+        <sys_id>3ec3ca662bf6ea505262fd69fe91bfa0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:43:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3ec3ca662bf6ea505262fd69fe91bfa0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7af829fb-9454-4189-a6bc-22fc631d51f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>trigger_sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Trigger Sysid</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</model>
+        <model_id>7f82c2262bf6ea505262fd69fe91bf1e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:43:17</sys_created_on>
+        <sys_id>b2c3ca662bf6ea505262fd69fe91bfa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:43:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b2c3ca662bf6ea505262fd69fe91bfa5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT INcbc34e662bf6ea505262fd69fe91bfda,e2d4caa62bf6ea505262fd69fe91bf0e,a0460ee62bf6ea505262fd69fe91bf4d,e4460ee62bf6ea505262fd69fe91bf4d,ec460ee62bf6ea505262fd69fe91bf4c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>トリガーの検索＝サブフローのトリガとなったレコードをSysIDをもとに検索する　※このサブフローの役割：作業担当者が回答文案を作って承認を得るまでの必要な処理をループ</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:43:17</sys_created_on>
+        <sys_id>cbc34e662bf6ea505262fd69fe91bfda</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <ui_id>3a872999-1bc1-43f7-97c1-c2e20ae6d998</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VYW2/iOhD+K1GeKSchQKBvq62QVjpnK3W7+9KtLCd2wDrGTm2nLUX89x3HSaDcS1lt99HjuXwz883gcDf3GfEvfTIMhtlw2BvEQRBFQdDvRykOkyTqp0mQ4K7f8gWeUtA0OOEUjo+YF/b8jMyEI5znKAiCDjIKJVhbBcJ0zvHsR6V3RafSu6EPBdUGbtMJ40RR4V/e3bf8HCvwbqjyL+drV2aWU8RxQjk4ubXBva8WSeto4K+MNxOxAeojEs61VMRiCVo+fTZUEAqhMsw1bflTLAg2Us0aiaKYXAu+FEyYMODRt8rPmr2A+0Fg9TIKaaXU3TVHVFXKidOJZCm9zg2TwkkcUHcpeTEVX10CtsY0wwU3dY1BUmjwR3OL2YKoEGXfJvLppg44YqJMr7rkMsW8OWFjFEsKQ7XtBeV0Co7QFBrMxBjlSj6y0hiwTNtjDod2xuUTBNVsLNo4tcDbUCLcHoH8qhT/wIrZLP4DN2AMgBiHbiNXdC0LVVblEaW80OWFwkI7X/6irBV6KCxKl3WVH3IlAgWdKpabT2DwSKtUFq2a2729FBkuKZFKQZiNqVcIrmcaMfKzAGMyn+sisem2oUjjMQCFW0YWi02+H2t22iB8XkV6bJZbjbelXo3EK1k1EuHZRqIL++LPDIVRxcebiUMsdwkfoHpI9pKALPutpTLIVW6F65s0PpmhI0Y5ebWqjwBXG19bsnnJbBfeiqCZjbG2szt//c7+kPQEQAS5ejPBmSh/MgHoeXjb20uNJFzjQdn+lQ1tZVinm+zFnpHey+lbtuxrzd8jQNaG3wCRd+tQbgFe79fafUXd6GzUjTpvoy4Q527eoG+qtqXA9cvItq7Wf7H6eF0f2LViEC7uG+p/Pi1m+NaYHRtzbTajNw3nKrPczdUOgp353bVj2Fq/c7onYFrFQ25Y0RMjY2qW0WstIs0T5v9vu6/Y1cxQmd6733Dh3md+svKGYxmaQp9YDg9LRVOggkZYUZTJQhBUPSmXtLF9y5jSplLe3CE31BRKeBJGzjMT6pXaXqN9js1yRHa14ZfMq9OrMGgP0vPK9LwmvbcVY8c+6p7xrfeefTTCjJelh0+DfKV3VCmpduykA13b0/4jF9aRoMKzgnr/RtvG962b7QDWv+I7871bJ6U46XZwP47CMAjCgMTBII7DQT/J+jjuZstBQ0iLFNYieM6AGOAe1USouxpsrha3G0/+MwR27j+jysWxeGvjKynst2knNp4FDH32asCHU6r2RSIlp1gs6dn7Ywvjo/xfUrDb9do40b/bmva7fswL9l2wh4J+saQY0KAzCEl6MYjD+KKbkf7FkODeBR4mvTgiNO1mp/8+3/8C7y3j+0EUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>requestの初期化＝未申請（Not Yet Requested）に書き換える※差し戻しされた場合に「承認済み」のままだったらおかしいので、初期化をするのだと思われる</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:47:54</sys_created_on>
+        <sys_id>e2d4caa62bf6ea505262fd69fe91bf0e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:33:27</sys_updated_on>
+        <ui_id>b45e3364-e9e3-49de-b9b3-218fd1f029fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KfHeMfaRLnbRACe1gL2ehLV4RsnROBLLmynCYL+d93suU0bbcslMAYzE++091933f60MPe48ybeSNgYZRG4zyJkiQOw3g6irJxkkUxSyhA5PmepCVgpYZcaYbxhorGJvb7hE4ncZqmwyjLo+EoKSbDdIJ/eQxxSGHM0nQaLNu+wwE7Ga8rQXf3bgBm8jUXTIP0Zg+PvldRjVgGtDfbvzkyuwqIoBkIbJyrvClBmsHnOc64VEffveyFvBVmMTBmbjrhNolHlk8U+h5sDUgGCFdQUYPvlVQyapTeeTOjG0xooOxOit2xYs2l6ZSWdFvzHzh/FNq6AlBa7rZwDInbUL8cxXO4qwxXsssYmol+c0o0pbztJNjdQkEbYU5229Q4DypL2ZLoGBZf1+p52eMtuGzVObZC5VQcI2qM5lljoLbXAQLapZS0qrhckUqrDW+bkUoZrAQGQSHUM2LWfCUDmlveAS6IBgvMz9v0PdXciviCY7D50IonT43F7WQ4wqTV3Aom7UVhaZ1rXplPOHgDjubBd0bObs4ZIE9f7vtk5ouZt8SsBUFSJMReYjTJaA3vPTuHUg2W8NRAbT7s32+WweC2Y3Ap+1fNv1HjHPwq5wx8czUDT/+SgR2jf8zBf/JtGJ99uE5uurVqfeJZJIASqPjehGHCpDID3RkT2Hvjni/+oI+hRAgDgw7Ev1hRP2DBQbD6FxJ7IzsAsnEAx9f4am6OxmH7/X+Ur/goP/4E7V/Yh18IAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>アサイン先をマネージャーに変更</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:54:03</sys_created_on>
+        <sys_id>a0460ee62bf6ea505262fd69fe91bf4d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:33:27</sys_updated_on>
+        <ui_id>a8eeb257-a00b-4e1b-87e3-aa875aaae02c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U227aQBD9FeRnsHwhgHmrhJD60ESiVV7SZDX2DrDS+pLdNYEi/r2z9pqQpE1RhFRVKk/MeC7nzJydu70nuDf1hsiDMAlHWRzGcRQE0WQYpqM4DSMeA2Lo9b0CcqRIhVmpONkbkLV17PcxTMZRkiSDMM3CwTBejgfJmP5lEUYB4IgnycRfNHmHA2VyoSsJu1tXgDzZWkiusPCmd/d9rwJFvQwqb7p/9cnsKmQSUpSUOCuzOsfC9D7PqMa5PLrsRUfkNTHbg2zuqjNhnfTJ4gmDvodbgwVHarcEqbHv5VBwMKXaeVOjanIoBH5TyN0xYi0K0zLNYavFD6o/DGzcEola5qZwNJmbUDecUmR4UxlRFq3HQCq7yZWyzovrloKdLS6hluZktrWmelhZyBZEi3D5dV0+Lbp+c1E07BxaWWYgjxYYo0RaG9R2HSixGUoOVSWKFatUuRFNMkHJ/ZUkw1/K8ol6arEqfMgsbp8GBP6c/LPGfQtKWBJfqAwlHxry7LG2fVsaDjBrODeEWbMoCtWZEpX5RIU36GAe+k7I6dV7AsiS532f1HwW85aZtWQEigWUy4xiKWh8q9kZ5mVvgY81avNh/X6zCHrXLYJz0b9I/g0bp+AXPifgq4sJePKXBOwQ/WMK/pNug+jdw3Wy6Uaq+kSzoC0e5MyU3+sgiPl+r+vUMvBpsbBCxZQ7vg8EluiCbANVK2DkD639VucXrf3BV4I5ITLYazH1z55XV2AuUHL9iwF2z8Q1YBvX4HjrL/ZWwlHQ/P6f/Aue/PufjhKy7L0IAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment>マネージャーに承認を依頼</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:54:03</sys_created_on>
+        <sys_id>e4460ee62bf6ea505262fd69fe91bf4d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:33:27</sys_updated_on>
+        <ui_id>d1ec7564-59b9-4bef-a6a9-f8422d94555d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y32/iOBD+V6o8A+ckEBLeKqFKe7q7lWh3X0oVOc4EvDIOGzvdcoj//caJAym0Wa7HaW9PfUF47Jn5ZuYb/8j91uGpM3HGYeZBFHkkcQnxCQlHjIQ+JP44GPuUEafnSLoCXFkAy4sUx49UlEaw3fo0HHtRFPXdhLn9oZ+N+9EY/zEPPEIhSKMoHMwqvd0ONVOu1oJuPlsDKGFLLtICpDO5f+g5a1qgLw2FM9keTenNGmJBExCoOM1ZuQKprz5M0ca5cTTasyaQ48CMDxyn1nrMjRCnDB7Sc+BJg0wBvWVUKOg5KypTqvNi40x0UaKgAJp+lGKzX7HkUteBruiT4n+ied8z6zLAyJhNwn4Y2wQ1uck5g49rzXNZSzRNRJO4XJQr+UcdgUktZLQUupXaUqE9WBvIBkSNMLtd5t9mjb8bLqvgLFqRMyr2I6p1wZNSgzLVAAFVTlZ0veZyEa+L/JFXyghlNVgIHAwykX9Dn4ov5IAyg3uACaKDG5RPK/FnWnATxO9oBpV3VfDx19L4rcOwgOMq5jpgXKVYwdf6Gm0+gkW461kKJ6yz9OxQ6drcgcFPsV6KGKHEhBAv1kWcUAWnRJ3CKr+awdcSlH4zae+M86uqYr2zgT9TPg3EMrYaxrI2bQnrdhPWSs5hbEh+DGMtop+Mst9jKwwDf4Q/48wnrueSEIIwZBGhLAyC0dA/FBn9IWIqYiySQtsH3l5wK73FjMlFw8gzwDWK1xYd9oVF9ypsy1LVuLIM9S7GUDf4SSla8ruj3NSS346r8+9w2bj7JDnuax9M9QMvCSISpv00I0l/GPqjPmVA+hC4IxilARu5/j/mP3G7Nr00fIFIGQfRvng0E6dt0Jp5WzvcGFfPNukz8J60xI0F/FogtiGq4dG2fbmmCPFMe79qXPaqwTrJAK3N+0teFrKDu/GSq6qkr3K4teJSXD4DfqP8a43/mMrHYXUw2X9n8n+YycNRJxXghd2L5TLlBp9q8bne80DN4Aswra7l5tP9dqvKxIQ1wHrTBRRxYd+AD6d0//sG3tYNh/tKKUA1HXFGGvbPRqvXmRbbD4c7kFWyPTG81Cvyx7XE//NWzjp5kEWHuqclpoPq9jNyO3dqkHNnMndkLmHu9OaOWRUbQlRiXIHg9hOVbLvd7WpJWVBrwG0ND9op3ahqpWJLSJFUlfSZpGa6lV/ya8utdXA1Rdy/3PHWefL9rO0/2ZS1/ouJbB4ITSR15nj7NBld7DQZvjfO0RMg3l+b8fDALejN3fTwF4EK45VWFAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment>Approvalがrequestedになるまで待機</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:54:03</sys_created_on>
+        <sys_id>ec460ee62bf6ea505262fd69fe91bf4c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:33:27</sys_updated_on>
+        <ui_id>83714f11-80b9-41b5-83e8-5f492a6fa93a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XW2/bNhTHv0qgZ9MjJUqi8lbEDhZgawDH6x66QiCpw1gALbm6pPGCfPdRMhXL1xqJm63A3sxjnsP/ufxE6fOTkybOpUMjCYxTwkLiYkxwEHiSEyG8QAosgDoDJ+NzMDsLkHmRmPUD13VjeHryOAvdKIoQEZIg6qkQRaH5JV1wMYcgiSI2nLR+z8/GM0nLhebLTzaAschZqpMCMufy85eBs+CFOauCwrl82vqrWi4g1lyANo6jXNZzyKqLm5GJcWoenfekS2Q7seYMs05s9DhtjOavRg8ZOPBYQZaAOU1xXcLAmfMs4VVeLJ3LqqiNoQCe3GZ6+bJjlmbVKtE5fyzTv014z232KTCZSVuEl2VsC9TVJk8l3C6qNM9WlooL3RUu1/U8+7jKoCktKF7rqlfaujTxYNFIbkSsFKq7Wf5t0p13nWZtclatziXXLyteVUUq6grKpht1Ot1XnZX5t719Uak2rYxb0XGZ10Wb72R8dTsZxX9+mF79Op7Ek/HddHJzNR03HqChDT3ni0Wa3ceLIn9IW4Um3/nwXpvFUOn8m0msTO+zIZdNcYamC3x4beyj1vyJF2lz6O8mjHFuVP6RpV9ruGknRSnikSBAhGAPUSICFDHwEQafU9+lgR+4znPblfhr3RRkVV9bybhtxiqpdoDM1lIW6aL6YMQ8gK3f86ADzD86mHw9h72Ya8ge42qmY5NIjDF246qIBS9hl6URzPOLCZgky+rVXE0bBRcfVwpOVb/hfCAbS9aGzYLlHgfLWk4hi+F/hyyr6O1obZRnk6zNzpTxauKs6Dbqe+HjEhYxKjzkCeojGimFGGYUUeBY+m4SUiK/i893oTn+NFfrMZN5lqRNFmUPGiPcpM71XzXGnpn1lgpIdqk5vPF1AF311ZyayV7nfelZijZsliLvXNcTNY+Zn/uC2ijPJkUbFX4XWiBhgfAxQ6AYM29IIUMRcV0UBDwhhMpE4XNeNjg5Nm2q9zZXpXPI6ypWmt/3yMG7jHRPl1deKaarv1zbEKdq7JzHWfvYs1oPirdciDzXwLM1FPRsVwv92a+WdW227pV+e96FCCk5MxcFR5EnAdFASMSUVMgD4SvPF0yE+M33hzw+Y9HuKCV1wduerVk45wfLOvqp+va4HpZsCWg71LdbEPz/QehA2CnR1hfM+o8fRcPM+I34smw6aejb5QMID33RfJRwRN2IIB5RF0UBhEAVCzwevZkPRo7On9odtlLOIKk1/Bg+XlraAXKCwM73bq3ssGYLSNE7x7IRnPH7Y/vVSc6zvoh9pPTU/0eJ6ddsE5Z+197n7nBd4iUgEUnMKxV1Axcxj4YojJjA1MyF8ODVbHz5B37ykwQTEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT INa0460ee62bf6ea505262fd69fe91bf4e,9194c6a62bf6ea505262fd69fe91bf79,8d560ee62bf6ea505262fd69fe91bffe"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e8460ee62bf6ea505262fd69fe91bf4d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:54:03</sys_created_on>
+        <sys_id>a0460ee62bf6ea505262fd69fe91bf4e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <ui_id>fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1US27bMBC9SqG1LOjrRt4FLQIUaBugCbJpA2FEjmKiFKmKlB3X8AG66EV6idym6DE61McxEgctiiy7Mx85M++N3vPW051tOmsu9akx4kZ5i4/XvieUw+j31lNQo7fwmFZcWKFV0QO+twLZuYuf3+5+/fhOABemkbC5eoizpZC8xbFzAy3VW2y9xfbBld00WEgoUVL5hW2FuqFywelUhVBFOYtYEs+TOAzjkzQq50kZxTwBhITeTYWvJqIv3vaI/6QCN49wM03SLXe0otD38Nai4kijK5AGfa8GxcHqdrNHWgR+ruQ9sBTKUjvPPb414iv1jrPMPayQNDIcLvfHYlzYALOlFgzPG0dwQCyUcqxhWna1ej/ocKvGCjppp1UT0hnqh40j7ViMlKqLpV5/mAaeCdULHC+lZiD3J7C0hrKzaNyHQYk1NSpqaBpaTtG0eiX6YuJSBzeSDkEl9ZqGOtcEwBzxgHYEwRnhr3v4ClrhVLyjNlQ80CzBCFb0DqN2tiUJu34txZfOERoEjlKKYRv0wLBWNPaU5qxwZL3zH9vzwJnbLY+Qvczm6SzLy3yWlljNYA75rDpJ45jnaZZlPCBupA5kYSxY3O0+dWGY8AElBzwy9nO1fY5c5JBVWRRmx3ORzo/l4kging5D/IcwuM/3l1kIw/B/GA7DIEwxmHrU1g//5yxcO+MPE8zgG45MGCJy6bA30z+6u9iQAQQ7hNa6/ewk3GO7312Uqh0bBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d994c6a62bf6ea505262fd69fe91bf78</block>
+        <comment>サブフローのトリガとなったレコードのAssigned_to項目の値をフロー変数「task_operator」に格納する</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <flow_variables_assigned>task_operator</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:46:43</sys_created_on>
+        <sys_id>9194c6a62bf6ea505262fd69fe91bf79</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <ui_id>0b4a2a8c-a5c5-4fbd-b631-c5baa6b77c4e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VzW6jMBB+F58TFCCBkFulVaVKu1upm/ayqtBgD4lVY1PbJM1GefcdA02j7PYNeoNv7Pl+mBFHZjrfdt6tzY1zcqPZ6vfzhEkdMHo+Mg0NshXz4F5K06IFbyybsB2oLuDHYwrLPCmKYhpXPJ7O0zqfFjk98QSTGWAmimIZPSA3VkTQc6AovTmdqIuQrlVweBqbEcK3UgmLo44WLNF7tGx1vCr5Q4ulggoVXXzAGqnCkTpIQcBsUcx5BllS1RnCYrZIsqQWWVFjEROU0rn3u9fOPjEc+Ai2F0zkKCibTRi+edQCibkG5XDCGtAiXDycEYsg7rX6ALZS+8FzA29O/qHuaTK5IFgxd3Bl5zDQn+FyzIzKj0OJb43keN96afTQ0EOlru5zo7pG/xy8heSxhk75i+TpYCmwDT6CsFFl/Wtr9ud4b6XuLY9FZTio8xt4b2XVeXTha3Vy/W9iA/j9P18NFTbEWzbQtlJvytaaney5SHoTbRS9RLUye9IYZigCHvxGlDJEt4R/6+EnsDKY/0Ftet+dfNTytcO7MBV5zGOe5MtpIXIaVZwvplWcimk6T6CqRcWrWcJOfdjlaxesDVGNoZRDvnTAcStbf0MSdjj6Pz2HpRjYh83pB/HzgfraoK8N+tqgqw0SyKUjVesg4e79LxQKB5oqyS+hvbEvwc8HdvoLztIuuM8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c5560ee62bf6ea505262fd69fe91bffe</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:54:21</sys_created_on>
+        <sys_id>8d560ee62bf6ea505262fd69fe91bffe</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <ui_id>b5d94b7b-0fc1-43bc-a037-eb3481a3b209</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT IN0594c6a62bf6ea505262fd69fe91bf63,1994c6a62bf6ea505262fd69fe91bf66,c994ca662bf6ea505262fd69fe91bf90"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=71c1c278-9d71-4e45-b13d-342abfdbcb02</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_operator</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_operator</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</model>
+        <model_id>7f82c2262bf6ea505262fd69fe91bf1e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:46:43</sys_created_on>
+        <sys_id>0594c6a62bf6ea505262fd69fe91bf63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:46:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d07a61e6-a2a8-437a-a84e-c8a2930ae7d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_complete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>task_complete</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</model>
+        <model_id>7f82c2262bf6ea505262fd69fe91bf1e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:46:43</sys_created_on>
+        <sys_id>1994c6a62bf6ea505262fd69fe91bf66</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3291e8de-5f8e-4584-b95b-0d20c052fafb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_create</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>task_create</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</model>
+        <model_id>7f82c2262bf6ea505262fd69fe91bf1e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:46:43</sys_created_on>
+        <sys_id>c994ca662bf6ea505262fd69fe91bf90</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-21 09:37:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>trigger_sysid</element>
+        <help/>
+        <hint/>
+        <label>Trigger Sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:43:17</sys_created_on>
+        <sys_id>bec3ca662bf6ea505262fd69fe91bfa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:43:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manager_record</element>
+        <help/>
+        <hint/>
+        <label>Manager Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7f82c2262bf6ea505262fd69fe91bf1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:43:17</sys_created_on>
+        <sys_id>f2c3ca662bf6ea505262fd69fe91bfa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:43:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>inquiry_task2ssss</internal_name>
+        <label_cache>[{"name":"3a872999-1bc1-43f7-97c1-c2e20ae6d998.Record","label":"1 - Look Up Record➛Demo Request Record","reference":"x_thl_app_0002_tr_base","reference_display":"Demo Request","type":"reference","base_type":"reference","usedInstances":{"b45e3364-e9e3-49de-b9b3-218fd1f029fe":["record"],"83714f11-80b9-41b5-83e8-5f492a6fa93a":["record"],"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["record"],"d1ec7564-59b9-4bef-a6a9-f8422d94555d":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.trigger_sysid","label":"Input➛Trigger Sysid","type":"string","base_type":"string","usedInstances":{"3a872999-1bc1-43f7-97c1-c2e20ae6d998":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7af829fb-9454-4189-a6bc-22fc631d51f2"}},{"name":"3a872999-1bc1-43f7-97c1-c2e20ae6d998.Record.assigned_to","label":"1 - Look Up Record➛Demo Request Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"0b4a2a8c-a5c5-4fbd-b631-c5baa6b77c4e":["task_operator-0"]},"attributes":{}},{"name":"b45e3364-e9e3-49de-b9b3-218fd1f029fe.record.assignment_group.manager","label":"3 - Update Record➛Demo Request Record➛Assignment group➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["assigned_to"]}},{"name":"subflow.manager_record","label":"Input➛Manager Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","column_name":"","usedInstances":{"a8eeb257-a00b-4e1b-87e3-aa875aaae02c":["assigned_to"],"d1ec7564-59b9-4bef-a6a9-f8422d94555d":["approval_conditions"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"dd89e9ed-d4c8-4d39-a700-c453b19ef3f3","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"d1ec7564-59b9-4bef-a6a9-f8422d94555d.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Inquiry Task2ssss</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a17c62a2bf6ea505262fd69fe91bf77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8a17c62a2bf6ea505262fd69fe91bf77^sys_idNOT INc617c62a2bf6ea505262fd69fe91bf78"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8a17c62a2bf6ea505262fd69fe91bf77</id>
+        <name>Inquiry Task2ssss</name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>c617c62a2bf6ea505262fd69fe91bf78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c617c62a2bf6ea505262fd69fe91bf78"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8a17c62a2bf6ea505262fd69fe91bf77^sys_idNOT IN0217c62a2bf6ea505262fd69fe91bf79,4617c62a2bf6ea505262fd69fe91bf94"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=dd89e9ed-d4c8-4d39-a700-c453b19ef3f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Manager Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</model>
+        <model_id>8a17c62a2bf6ea505262fd69fe91bf77</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>0217c62a2bf6ea505262fd69fe91bf79</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0217c62a2bf6ea505262fd69fe91bf79"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7af829fb-9454-4189-a6bc-22fc631d51f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>trigger_sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Trigger Sysid</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</model>
+        <model_id>8a17c62a2bf6ea505262fd69fe91bf77</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>4617c62a2bf6ea505262fd69fe91bf94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4617c62a2bf6ea505262fd69fe91bf94"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8a17c62a2bf6ea505262fd69fe91bf77^sys_idNOT IN1a17c62a2bf6ea505262fd69fe91bfc2,da17c62a2bf6ea505262fd69fe91bfc2,9e17c62a2bf6ea505262fd69fe91bfc2,5217c62a2bf6ea505262fd69fe91bfc3,1617c62a2bf6ea505262fd69fe91bfc3"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>トリガーの検索</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>1a17c62a2bf6ea505262fd69fe91bfc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>3a872999-1bc1-43f7-97c1-c2e20ae6d998</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYXW/iOhD9K1GeKTfhK9C3qyKklfZupbZ3X3ZXlhM7YK2xU9tpSxH//Y7jBCJIgehSqdU+ejy2z8ycM3byY+0z4l/7ZBJM0slkOI6CoN8PgtGon+AwjvujJA5iPPA7vsBLCp4Gx5zC8Anz3I5fkFlwhLMMBUHQQ0ahGGvrQJjOOF59L/2mdCm9O/qYU21gNlkwThQV/vWPXx0/wwp2N1T51+u9qXPhcRxTDq4PJb49uGaVbYeomHO2r/Vl3jc3IRWxUIKOT18MFYQChhRzTTv+EguCjVSrrUVRTG4F3xkWTBjY0bfOL5q9wrnjwPqlFKJKqJvbDlGZKGdOp9jge6PyxOSqdE0WkiVUu3wQmuKcm5u6zTncZoZJ4Za4sN1qyfOl+ObS4W83qOoCllwDCJrZQC3yMoz0fiGf7yqUMyaKnJSTXCaYb0fYGMXi3Fg8a59yuoSN0BJIwcQcZUo+sWIxYFl25xwG3ZTLZzhUs7no4sQC70JecXcG9mlh/o4Vs1H8A9vAYgDEODAEuRJqmasilU8o4bkuJhQW2u3lbzq+XukbjrXeRQ4pR4+5xe3yUEaMXNLskkSxzPwNWzzRMrhNp1LI8CgFJzvKJVIQZlHomkwADWLkZw6LyXqt89gmoAtpm88BOswystkcqubcZS3ldDqWSk439WCaAiyFdWD72rRBKazwYsIaQNP5RNKCwz+estprxaXghGBCcpRkZMcnLZVBLpc1xRyKoTXPz4BQ8fzWMtOLV2+hKmmeMspJ0/0xsxN790fvz7w/PiTJARBBrnpMcCaKxwAAfS/2D49SLw73eFbQq3ZbWBvWyaEGsGek99paCWfAqZRwD2d7Dw5PA8Sq3xeU2e/1lbEUQP9iAuj3LiOA9TbMbSIbcl69/2w1K/9X64/3/YGCtQXhpklgrc4M257Z2xwKuN9KwXWyuZnpG5y78EPxDUV23rMFLGBpeR5y+kXPjMyp2Z1eeRFpnjH/3TRfMg5VhSrCe4dHZ3j0uyeuPTpZipZQOZbB21jRBMihEVYUpTIXBJWv4h2RbCVTprQpnQ8bzR0F/QhPgjA9s6Be4e1tvVtexKfjqFL5JfWqQMrTtAeBeEUg3jaQdmG3aVqDCz5OL920ZpjxohrwwZPVykmVkuqNxnWikEcYcWZXOxNUeFFQ/7/tNUmgsf2dwPopvp4v35oSiuNBD4+ifhgGQRiQKBhHUTgexekIR4N0p1GEtEigm8LOKVAFtkcVNao6B4f9x7XUto3mDFQVBadS2O/qXmQ8Cwvq61WwTgMvG0osJadY7HWUB7gn/pqV+Eu+Dj9cV/kU/5Jy9rCfaWdqzPV7vRty9q9gjzn9Yik2pkFvHJLkahyF0dUgJaOrCcHDKzyJh1Gf0GSQXvIp8Os/B1uMWKMVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>da17c62a2bf6ea505262fd69fe91bfc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>b45e3364-e9e3-49de-b9b3-218fd1f029fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPbZWPUpreEBXSSixIZcWFRdHEnlBLjhNsB+hW/e87SZy2AsSCxKXanuqZeeP3JvOSuw2Tgs3ZBEUQJuGUx2EcR0EQzSZhNo2zMBIxIIZsyDQUSJUGeWkEnZ9A1U1gs4lhdholSTIKMx6OJnF+OkpO6R+PMAoApyJJZuNli9tuCSmkrRSsb30DivCVVMKgZvO7+yGrwNBdDg2bb16lPktWQYaKSpc929fs3bpqzqLkdYHapbIPXnrkwmcGPxaUIVBDJwyGDF8caoFEJAdlccgK0AJcadZs7kxNAYMgrrVa7ypWUrtOaAEvVv6hmydBU5cjKeN+CLtj6gfUhfMFOLihztzVZjevUnK03UwE5lArd34Y6wquKydL3UEcZKpHl6ou9FU3EbZrcPA8aksksGp0Nsw7WfnNqnxe9iQvpG5H4iWqkoPancA5I7PaNXQ2DBW2My6gqqR+SCtTPskWTFSK8YOiwzhX5TPdaeWDHgNveI9pqjC+oPiiDd+CkY2In9SGwNshs2t7rsDavRSaYfpYN0w6YV5C2k6hHUHabkID5kZW7oyuekJPfDv0dshOPtownuwX6qDn3hIvqVuplGimAWFTZ9IMLL7d/AUW5WCJjzVa92UXfIJj74Jf7bN/n7M3wpvY5SF2cNUlvA1Ovs0Gs2OygZdx9D741/YH0Yfv14NNahfeHmw+USJRoH7XQRALXbqB6dYbxdv1/7j4a274BOfeDRcSlbDviOitgAWxdJh2ol7ZwScHtz65+zJ8myfCadD+jsgZ/80H4v4v0eawrTEJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>9e17c62a2bf6ea505262fd69fe91bfc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>83714f11-80b9-41b5-83e8-5f492a6fa93a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XXW+jOBSG/0rFdZzFYMD0bpSk2krdqZR0Zy9mR8iY48aSAxk+Os1W/e9rwCkkpJl2J61Uae/Cwce85/V5cuDrgyUT69wiIQfKCKYBdmwb277vcobj2PV5bMdArJGVshXolTnwLE/09R1TVR14eHAZDZwwDBGOOUbEFQEKA/2LO+DYDPwkDOl43uQ9PurMRBZrxTZfzAY6wpdSJTmk1vnXbyNrzXL9rBJy6/xh79ZLxSoWg9JL51u1++rLzbq+TjJerSAtI7kNXpnMqblzdjnVd3RSLQePLLgvIU1A6xBMFTCyVixNWJnlG+u8zCsdyIEl16naPK1YyrRs61yx+0L+ox/sOvU6Abowbjx4uoyMP21YTFnJFnpnXlb5k12Z5FC0liQgWKXKST/WLrhelzJL25SSxWqbnalqlX5uDbGeNugdR1VoEbCu66yVt2WJxTL7Md+KvJBp44gpUWWcqacrVpa5jKuylvNgVfLmkNlt+LDdQip9/FEjOiqyKm9Mms8m1/Np9Nenm8nvs3k0ny1u5peTm1mdAQqarVdsvZbpbbTOszvZKNT1rsa3Sl+Mhcp+6MIKeZuOGa/NGeujY+MLHZ824S8sl/VD/9Db6ORa5Z+p/F7BZdN4QmAX+z7C2HYRwbGPQgoessFjxHOI7/mO9Tiyik0xUawoOo/14Ubfq9qi1nHjbdQcT1tm06F1Ms/luvyk5d2BcfRxtMXUO9r5rGv03p4dqvdRuVSRLi2ybduJyjyKWQFDIqewys7moMsuytfT+XONWzpvmqY8rNkAOohd9XPPPrc3DJ7OcTxNpOOzbewDeFL7A+Fpyvp1Pne83sVzx21ZRG2TGtHNru/FoINpSEnsIjcmHiKhEIjalCACzOaekwQE8//A4E/JOz5zRNfFPEsTWddV9MjTpWgzmPq7sm1XA9OgBckQvecXnnRGih6Fk77gQ0UYFAexq0MbGBTdU01Kov+qPhCMp5qVO2bvsrhj97swBwn1Y8+mCASl+gUvoCjEjoN8nyUYE54I+23nnp0c62bRez0t5QqyqoyEYrc9/uwhadt/rddx9QIlW65mafOnaRQ9K9HQFWeZApbuTzndTr9dGKUGLfLKKXeMrQ9E1snGXOf03ozre/0uXHHOqB5aDIUuB0T8mCMquEAuxJ5wvZjGgf0Gs4wf7+Fw2KpJlbPmFDuiTvAd9wIdW5amnYDnpRmSmrPZj18NNzI4ef/j9Es4Deze+7DrbrwVU0udN2Wbou4KzfCQMsAs8OL6W40h4oQYsZA4KPQhACKo77LwDSij+Gh3i2ErF3wJSaXgtJS9QMeWskUn4HlphrKu0XcBm/fihjD/ZITRwcsgX6V9cYd461X1IbkTC2A5X15IUPV5mu+zZ2jsH8suiP2DeZ/p5jjYTYAjnOhXR+L4DqIuCVAQ0tgmuvViF07I3bd/Afu50hfMFAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>5217c62a2bf6ea505262fd69fe91bfc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>a8eeb257-a00b-4e1b-87e3-aa875aaae02c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy07jMBT9lcrrEuVRStMdokIaiQGpjNgwYN3EN60l54HtAJ2o/z43idNWgBiQ2KDpqr4vn3NyT3LbMCnYnE1Q+EEcTNMoiKLQ98PZJEimURKEIgLEgI1ZATlSpca01ILOj6DqNtA0EcxOwjiOj4IkDY4mUXZyFJ/QvzTE0Aecijieecuub7ulTiFNpWBz4wZQJF1LJTQWbH57N2YVaLrLombz5kXqo2AVJKiodDmgfYnebqr2LMq0zrGwXA7BC9e5cJnRjwVlqKmFE/hjhs8WC4EEJANlcMxyKATYUm/Y3OqaAhpBXBVqs6tYy8L2RHN4NvIP3Tzx27oMiVnqRNgduROoD2cLsHBNk1Nb651epUzR9JoIzKBW9uww1hdcVVaWRd9iIVFDd6nqvLjsFWG7AQfPozYEAquWZ4u8p5Vdr8un5QDyXBadJI6iKlNQuxNYq2VS2xZOw1Bhp3EOVSWLFa90+Si7ZoKSeytFBy9T5RPdaeSq8CBtcXukKnjnFF904RvQsiXxk8ZQ83bMzMacKTBmT4U05A91i6Qn5ijwToVOAt5tQtucalnZU7rqER3w7djZITl+b8PSeL9QBzP3lnjmdq04weQ+9XKreQIGX2/+AvNytMSHGo39tAs+gHFwwa/u2b+N2RnhVezisHd02SecDY6/zAaz72QDR+Pb++Bf2++H775fDzapW3hzsPkEghCi4Lb8Xft+JJrG1EnLyaP9gBVqrt2H4J7gkwCg+kLd2wDFfX9+7ZYvnf05r31AkcFr5xKVMG9INBgNcyJlkfeSvTCbS45uXHL33fkyxwVTv/t9I9/9N5+fu79YJypIjwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>1617c62a2bf6ea505262fd69fe91bfc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>d1ec7564-59b9-4bef-a6a9-f8422d94555d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YTW/bOBD9KwHPtpeSbFnyLagRoMVuCzhpL3EgUNTIZkFLrkil8Qr+7zuSKEu1E9deuIc0vQThcGb4ZvQeP3xfEBGRCRl7sQ2+b9PQotSh1Btx6jkQOmN37DBOSY8kbAXomQFPswjHj0zmpaEoHOaNbd/3+1bIrf7Qicd9f4z/cRtsysCNfN8bzKq47RYjI6HWkm2+mARo4UshowwSMrl/6JE1y3AtDRmZFHtTp4KVLASJrrMG7T56vVmX4yjl+QoSHYjG+LeJnJqZq/dTnMGgEg7tEXjSkESAOGImFfTIiiUR02m2IROd5WjIgEWfErnZeSxFous6V+xJiX9xYccu/WLAwrjpwW4YmP7U5njKNLvFzFzn2a5dqeCg6pZEELNc6nddW+3waa1FmtQhmoWyiU5lvko+1g0huwSdz5ErBAHrss4SeV1WfLtMv88akDciqTpiSpQpZ3I3YlpnIsx1CacgIKFq8Yqt1yJZBOssfRRVMEJZDRYSB4NYpt9xTSUWyYDxEvcAu8oGN2ifVuYvLBNlEf9gGgze9ojaqHeSKdWWgj0MvuUlkrowU0JQdaFuQRnHM7HW17jKIxjM254RQsiPcou3VKrTtTp4CvRSBgguoJTagc6CkCk4pPsUVunVDL7loPTZ1D8BXkP9O4NvD64hfjUMqrkfeV+FXX2sJwztreO0N5aW9zVhnqG9R18R7U1Zr573P6M8DF1nhH/GsUMt26IeuJ7Hfcq457qjodNyCBFgDUwG+KkV5m7Jf4Fd/QQYDbWvDQ6UkcHxIkBDd4UfJlnsUf22MRqa22fS/OXt3XLfEtFzcbfX5dpy0Odfo4hyuc+JwA31fckj1w5dn3pRP4pp2B96zqjPONA+uNYIRpHLR5bzC1RErWM7c+Q9Q9JYgOzepJqJQzF1Zs4T1QmoDkR1Y2C9BNdIqho+d4JU8XsnyOWk5eHp+oq09ZbuTvwo2aBzkHxN8yw5ooBgKVTFjBeV0PE4TxEngGwU8aFGuS+IffD/Rw/OHz38/noYjo5SrXM537Gap0kkSsSqo4p6ZwY1g6/AtbpONp/vi0LlYVnoAGnDFpAFmXlgPxyK5vwE52nqhEJ3D/JcgvpZ4UZR7W3OBHVV1d4BzaRR1vBST/RXJqy38lrhR7kW+y23ohwbxHT3jV7MSQ17TiZzkqQJzElvTkqvoCRXZUYPBLebqGxFsd3WljxjJoHVGbbREduoylPxJUTIzcr6gyWoxGDsl/hB7ISeNPqb5nA1rZty2KbmsdTgrPsiDk60W+NQZfrrTnRPttHFTrbhH/ld4mkU7B4PeGzh7ndBTT78B08F6KI/FgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8a17c62a2bf6ea505262fd69fe91bf77^sys_idNOT INd217c62a2bf6ea505262fd69fe91bfc1,1e17c62a2bf6ea505262fd69fe91bfc1,5617c62a2bf6ea505262fd69fe91bfc2"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d994c6a62bf6ea505262fd69fe91bf78</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <flow_variables_assigned>task_operator</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>d217c62a2bf6ea505262fd69fe91bfc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>0b4a2a8c-a5c5-4fbd-b631-c5baa6b77c4e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwW7iMBD9F59DRBIghFvVCqnS7lZqaS+rKprYE7DqxKljQ1nEv+84yQLqdu974Oa8Gc+898ajHJh2tnG2XembtpXrmi1+vgZM1h6j84FJwRaMBayGCulkoX3LdYMGrDYEb0E5jx8OCczTOMuyUVTwaDRJynSUpXTiMcZjwJnIsnn4iFwbEULXC0Vu9fFIVYRsGwX7l6EYIXwjlTA48GnAUHuLhi0On0Idv/E0m/AZzOKinCFMx9N4FpdilpWYRQQlVFBBgeoLAf/QZfeNhw2WSK04DtC3ocrjBU6CPLFxwPDDYi2QGJWgWgxYBbXwBfcnxCCIh1qdgY2sbS+5go9W/qKuSRxcNF6wdt/mrkVP6wTng2UUfu5D5R1YeLLGcevMyUUtOba9UwJLcMreXmJ9wkNjpa77KxYK9akp18pV9Y/eKHYqdDEtSswFNl68VzNIK582endyainrzqchqDQHdZGKYPhmKVH5eXZDCRhYa2ThrGd7YE6u/h5KD341FlRYEZu8gqaR9TpvjN7KjgEJqsK1oo+wVHpHzP1rDIF7F0IaGIRLwu86+AWM9JZ8pzKdG04+1/Ld4b0nmkY84nE6H2UipUePk+moiBIxSiYxFKUoeDGO2THwbt4qevVnE0lE/u68Bb2lg3l5Pwd/hRvZ2BsitcXBp+OrX7iez3U7r9t53c7/bTsFctkSz5Undf/nL+oDe3JN8ktop82bV3jGjr8BD6ypK48HAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e8460ee62bf6ea505262fd69fe91bf4d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>1e17c62a2bf6ea505262fd69fe91bfc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VS27bMBC9SsG1LOjrxt4FDgIUSBugCbJpA2FEUjZRSlRFyokr+ABd9CK9RG5T9BgdipJtJC7aoFl2Zz5yZt57mgd3RLWmbo2+Vqdai2VF5h9uPSIqi+HvjlRQcjInVFVMGKGqrAc8sgbZ2osfXx9+fv+GABO6lrC5eYzTlZCs4UPnGhqsN7wh8+7RlWBYVgRQhDMa0jiaxlEQRCdJmE/jPIxYDBxibCgh5xKfLkZKry56xPstV7OpLa5NI6rlcL4YulyNoGqYZRUGHuH3hleMI58CpOYeKaFiYFSz2SENB3ZZyT2wEpXBdsQ+vtfiCw6M0tQ+LDhKpNxd7o7Z4JeDizMwgFRaatpmeEpXSlCunTmMF9BKszjE3IPL2kp1JQZyOVYr2ZbVO+cI2TUYPw8irUYSvLZKLfVBR3G1UnfvR5bnoupdGS6loiB3JzDoXd4ay6cjXPISG2Ul1DU6mtWNWou+GLmU/lLiwS+kusOhdtN8oJa4j8aCf474WQ/fQCOsirfYBosdzRy0oFm/ldgObeJk6xG90QsJWu9ForvZ59ZSdJIHcZnzx5bQRtTmFCev+aBj6z1d8oP97joWcvo6nSaTdJbPJknOiwlMYTYpTpIoYrMkTVPmI1vUCzLTBgzfbj+2QRAzh+IiPYnHS7V9XrpmkBZpGKTH05VMj6XrSK6eGanoD5Gy3/MvExUEwf9I/XOkhM5cEAZt/fAXTNStjY+bufOaCo3Uri32Zvx3sRcbXC5BD6E71XyyovbY9hflvnggpwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c5560ee62bf6ea505262fd69fe91bffe</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>fad05b3c-6a9e-415d-b3be-b5feb7eaa1bd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>5617c62a2bf6ea505262fd69fe91bfc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <ui_id>b5d94b7b-0fc1-43bc-a037-eb3481a3b209</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8a17c62a2bf6ea505262fd69fe91bf77^sys_idNOT IN1e17c62a2bf6ea505262fd69fe91bfac,5a17c62a2bf6ea505262fd69fe91bfbd,da17c62a2bf6ea505262fd69fe91bfbb"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=71c1c278-9d71-4e45-b13d-342abfdbcb02</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_operator</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_operator</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</model>
+        <model_id>8a17c62a2bf6ea505262fd69fe91bf77</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>1e17c62a2bf6ea505262fd69fe91bfac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=3291e8de-5f8e-4584-b95b-0d20c052fafb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_create</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>task_create</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</model>
+        <model_id>8a17c62a2bf6ea505262fd69fe91bf77</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>5a17c62a2bf6ea505262fd69fe91bfbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d07a61e6-a2a8-437a-a84e-c8a2930ae7d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_complete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>task_complete</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Inquiry Task2ssss">8a17c62a2bf6ea505262fd69fe91bf77</model>
+        <model_id>8a17c62a2bf6ea505262fd69fe91bf77</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_id>da17c62a2bf6ea505262fd69fe91bfbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>trigger_sysid</element>
+        <help/>
+        <hint/>
+        <label>Trigger Sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>8617c62a2bf6ea505262fd69fe91bfa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>manager_record</element>
+        <help/>
+        <hint/>
+        <label>Manager Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8a17c62a2bf6ea505262fd69fe91bf77</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:42</sys_created_on>
+        <sys_id>ce17c62a2bf6ea505262fd69fe91bf91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8a17c62a2bf6ea505262fd69fe91bf77"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7f82c2262bf6ea505262fd69fe91bf1e</sys_id>
+        <latest_snapshot>8a17c62a2bf6ea505262fd69fe91bf77</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7f82c2262bf6ea505262fd69fe91bf1e"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7f82c2262bf6ea505262fd69fe91bf1e^sys_idNOT INae17c62a2bf6ea505262fd69fe91bfc5"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@3f028618</plan>
+        <plan_id display_value="Inquiry Task2ssss">7f82c2262bf6ea505262fd69fe91bf1e</plan_id>
+        <snapshot>8a17c62a2bf6ea505262fd69fe91bf77</snapshot>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:57:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae17c62a2bf6ea505262fd69fe91bfc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:57:43</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

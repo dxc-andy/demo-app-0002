@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94c988b14776a2108a4393c4116d4380" extends="x_thl_phd_core_tr_variables" label="社用スマートフォン貸与申請変数" max_length="40" name="x_thl_app_0002_tr_variables" type="collection">
+        <element label="作業項目" max_length="80" name="u_workmemo" type="string"/>
+        <element label="申請者" max_length="32" name="u_applicant" reference="sys_user" type="reference"/>
+        <element label="承認者" max_length="32" name="u_approver" reference="sys_user" type="reference"/>
+        <element label="申請内容" max_length="4000" name="u_application_details" type="string"/>
+        <index name="index">
+            <element name="u_approver"/>
+        </index>
+        <index name="index2">
+            <element name="u_applicant"/>
+        </index>
+    </element>
+</database>

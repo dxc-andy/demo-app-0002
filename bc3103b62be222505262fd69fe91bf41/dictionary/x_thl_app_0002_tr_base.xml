@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="170687ba2be222505262fd69fe91bf06" extends="x_thl_phd_core_tr_base" label="Demo Request" max_length="40" name="x_thl_app_0002_tr_base" type="collection">
+        <element label="対応者" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element label="問合せ回答" max_length="4000" name="u_inquiry_reponse" type="string"/>
+    </element>
+</database>

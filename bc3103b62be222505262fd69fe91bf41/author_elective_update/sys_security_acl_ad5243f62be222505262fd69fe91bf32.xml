@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_thl_app_0002_test_req_tr_base</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>andi.shan@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-09 06:39:19</sys_created_on>
+        <sys_id>ad5243f62be222505262fd69fe91bf32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_thl_app_0002_test_req_tr_base</sys_name>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name>sys_security_acl_ad5243f62be222505262fd69fe91bf32</sys_update_name>
+        <sys_updated_by>andi.shan@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-09 06:39:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="app 0002">bc3103b62be222505262fd69fe91bf41</application>
+        <file_path/>
+        <instance_id>7b7382a6eb0fca145a2dfceacad0cdd5</instance_id>
+        <instance_name>persoldev3</instance_name>
+        <name>sys_security_acl_ad5243f62be222505262fd69fe91bf32</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_thl_app_0002_test_req_tr_base</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>andi.shan@grcore.com</sys_created_by><sys_created_on>2025-07-09 06:39:19</sys_created_on><sys_id>ad5243f62be222505262fd69fe91bf32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_thl_app_0002_test_req_tr_base</sys_name><sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package><sys_policy/><sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope><sys_update_name>sys_security_acl_ad5243f62be222505262fd69fe91bf32</sys_update_name><sys_updated_by>andi.shan@grcore.com</sys_updated_by><sys_updated_on>2025-07-09 06:39:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>900805309</payload_hash>
+        <record_name>x_thl_app_0002_test_req_tr_base</record_name>
+        <reverted_from/>
+        <source>383103b62be222505262fd69fe91bf43</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>andi.shan@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-09 06:39:19</sys_created_on>
+        <sys_id>295243f62be222505262fd69fe91bf36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197ede900170000001</sys_recorded_at>
+        <sys_updated_by>andi.shan@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-09 06:39:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a15243f603e222503d0ad24366540036</update_guid>
+        <update_guid_history>a15243f603e222503d0ad24366540036:900805309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>andi.shan@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-09 06:54:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>00c033504e934b008478d01340354090</sys_id>
+        <sys_metadata>ad5243f62be222505262fd69fe91bf32</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_thl_app_0002_test_req_tr_base</sys_name>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_parent display_value="">ec5243f62be222505262fd69fe91bf4a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_scope_delete display_value="">0f592e5fdbde40c897db4f952d32aa40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ad5243f62be222505262fd69fe91bf32</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ad5243f62be222505262fd69fe91bf32">295243f62be222505262fd69fe91bf36</sys_update_version>
+        <sys_updated_by>andi.shan@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-09 06:54:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_applicant" label="申請者" language="en" table="x_thl_app_0002_tr_variables">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_applicant</element>
+            <help/>
+            <hint/>
+            <label>申請者</label>
+            <language>en</language>
+            <name>x_thl_app_0002_tr_variables</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 01:09:00</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>申請者</sys_name>
+            <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+            <sys_update_name>sys_documentation_x_thl_app_0002_tr_variables_u_applicant_en</sys_update_name>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 01:09:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
