@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>inquiry_task2sss</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Inquiry Task2sss</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 15:11:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3121e9ea2b76ea505262fd69fe91bf99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inquiry Task2sss</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name>sys_hub_flow_3121e9ea2b76ea505262fd69fe91bf99</sys_update_name>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 15:11:56</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_variable_value action="DELETE" query="document_key=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=3121e9ea2b76ea505262fd69fe91bf99^sys_idNOT IN3921e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>3121e9ea2b76ea505262fd69fe91bf99</id>
+        <name>Inquiry Task2sss</name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 15:11:56</sys_created_on>
+        <sys_id>3921e9ea2b76ea505262fd69fe91bf99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 15:11:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=3921e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_flow_input action="DELETE" query="model=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_flow_output action="DELETE" query="model=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_hub_flow_variable action="DELETE" query="model=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=3121e9ea2b76ea505262fd69fe91bf99"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="app 0002">bc3103b62be222505262fd69fe91bf41</application>
+        <file_path/>
+        <instance_id>7b7382a6eb0fca145a2dfceacad0cdd5</instance_id>
+        <instance_name>persoldev3</instance_name>
+        <name>sys_hub_flow_3121e9ea2b76ea505262fd69fe91bf99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes/><authored_on_release_version>27000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><display_name_after_preview/><flow_priority/><generation_source/><internal_name>inquiry_task2sss</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Inquiry Task2sss</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>akira.sekiguchi@grcore.com</sys_created_by><sys_created_on>2025-07-20 15:11:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3121e9ea2b76ea505262fd69fe91bf99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inquiry Task2sss</sys_name><sys_overrides/><sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package><sys_policy/><sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope><sys_update_name>sys_hub_flow_3121e9ea2b76ea505262fd69fe91bf99</sys_update_name><sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by><sys_updated_on>2025-07-20 15:11:56</sys_updated_on><type>flow</type><updation_source/><version>2</version></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=3121e9ea2b76ea505262fd69fe91bf99"/><sys_variable_value action="delete_multiple" query="document_key=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_flow_stage action="delete_multiple" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/><sys_flow_cat_variable_model action="delete_multiple" query="id=3121e9ea2b76ea505262fd69fe91bf99^sys_idNOT IN3921e9ea2b76ea505262fd69fe91bf99"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>3121e9ea2b76ea505262fd69fe91bf99</id><name>Inquiry Task2sss</name><sys_created_by>akira.sekiguchi@grcore.com</sys_created_by><sys_created_on>2025-07-20 15:11:56</sys_created_on><sys_id>3921e9ea2b76ea505262fd69fe91bf99</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by><sys_updated_on>2025-07-20 15:11:56</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3921e9ea2b76ea505262fd69fe91bf99"/><sys_hub_flow_input action="delete_multiple" query="model=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_flow_output action="delete_multiple" query="model=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_action_instance_v2 action="delete_multiple" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=3121e9ea2b76ea505262fd69fe91bf99"/><sys_hub_flow_variable action="delete_multiple" query="model=3121e9ea2b76ea505262fd69fe91bf99"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3121e9ea2b76ea505262fd69fe91bf99"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3121e9ea2b76ea505262fd69fe91bf99"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=3121e9ea2b76ea505262fd69fe91bf99"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=3121e9ea2b76ea505262fd69fe91bf99"/></record_update>]]></payload>
+        <payload_hash>-111261543</payload_hash>
+        <record_name>Inquiry Task2sss</record_name>
+        <reverted_from/>
+        <source>383103b62be222505262fd69fe91bf43</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 15:11:56</sys_created_on>
+        <sys_id>fd21e9ea2b76ea505262fd69fe91bf9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198286444cb0000001</sys_recorded_at>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 15:11:56</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>b121e9ea9d76ea504f7cf4359a4f529b</update_guid>
+        <update_guid_history>b121e9ea9d76ea504f7cf4359a4f529b:-111261543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-20 17:38:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>2495a401f341470187023ed8dfedba79</sys_id>
+        <sys_metadata>3121e9ea2b76ea505262fd69fe91bf99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inquiry Task2sss</sys_name>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_scope_delete display_value="">0f592e5fdbde40c897db4f952d32aa40</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_3121e9ea2b76ea505262fd69fe91bf99</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_3121e9ea2b76ea505262fd69fe91bf99">fd21e9ea2b76ea505262fd69fe91bf9b</sys_update_version>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-20 17:38:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

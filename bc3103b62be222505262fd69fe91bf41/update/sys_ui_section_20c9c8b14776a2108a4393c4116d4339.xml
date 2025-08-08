@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="20c9c8b14776a2108a4393c4116d4339" sys_domain="global" table="x_thl_app_0002_tr_variables" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_id>28c9c8b14776a2108a4393c4116d433b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thl_app_0002_tr_variables" sys_domain="global" view="Default view">20c9c8b14776a2108a4393c4116d4339</sys_ui_section>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_id>24c9c8b14776a2108a4393c4116d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thl_app_0002_tr_variables" sys_domain="global" view="Default view">20c9c8b14776a2108a4393c4116d4339</sys_ui_section>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_id>acc9c8b14776a2108a4393c4116d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thl_app_0002_tr_variables" sys_domain="global" view="Default view">20c9c8b14776a2108a4393c4116d4339</sys_ui_section>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tr_base_ref</element>
+            <position>3</position>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_id>68c9c8b14776a2108a4393c4116d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thl_app_0002_tr_variables" sys_domain="global" view="Default view">20c9c8b14776a2108a4393c4116d4339</sys_ui_section>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_id>e0c9c8b14776a2108a4393c4116d433b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_thl_app_0002_tr_variables" sys_domain="global" view="Default view">20c9c8b14776a2108a4393c4116d4339</sys_ui_section>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_thl_app_0002_tr_variables</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+            <sys_created_on>2025-07-18 00:54:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20c9c8b14776a2108a4393c4116d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_thl_app_0002_tr_variables</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+            <sys_update_name>sys_ui_section_20c9c8b14776a2108a4393c4116d4339</sys_update_name>
+            <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+            <sys_updated_on>2025-07-18 00:54:40</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

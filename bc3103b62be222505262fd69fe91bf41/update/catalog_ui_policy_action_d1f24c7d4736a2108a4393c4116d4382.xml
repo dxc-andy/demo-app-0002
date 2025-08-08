@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="問合せ申請フォーム（app0002）">a049e01d47be22108a4393c4116d434c</catalog_item>
+        <catalog_variable>IO:1e297fa54736a2108a4393c4116d4397</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>akira.sekiguchi@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-18 00:24:57</sys_created_on>
+        <sys_id>d1f24c7d4736a2108a4393c4116d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo_02</sys_name>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d1f24c7d4736a2108a4393c4116d4382</sys_update_name>
+        <sys_updated_by>akira.sekiguchi@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-18 00:24:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'demo_02' hidden depending on 'demo_03'">9de2087d4736a2108a4393c4116d4317</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>demo_02</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

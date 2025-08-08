@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_thl_app_0002_demo_task">x_thl_app_0002_demo_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DMTB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>andi.shan@grcore.com</sys_created_by>
+        <sys_created_on>2025-07-11 08:22:52</sys_created_on>
+        <sys_id>823d65eb47e662508a4393c4116d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DMTB</sys_name>
+        <sys_package display_value="app 0002" source="x_thl_app_0002">bc3103b62be222505262fd69fe91bf41</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="app 0002">bc3103b62be222505262fd69fe91bf41</sys_scope>
+        <sys_update_name>sys_number_823d65eb47e662508a4393c4116d436e</sys_update_name>
+        <sys_updated_by>andi.shan@grcore.com</sys_updated_by>
+        <sys_updated_on>2025-07-11 08:22:52</sys_updated_on>
+    </sys_number>
+</record_update>
